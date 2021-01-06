@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ShareFileUtils.shareImageToWX(this,"/storage/emulated/0/tupian_out.jpg");
-        ShareFileUtils.shareImageToWX(this,"/storage/emulated/0/1.jpg");
+        //ShareFileUtils.shareImageToWX(this,"/storage/emulated/0/1.jpg");
     }
 }
